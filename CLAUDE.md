@@ -60,7 +60,7 @@ npm run test:cv-visual:update   # update baselines
 ### Individual health checks
 ```bash
 node verify-pipeline.mjs        # tracker integrity
-node normalize-statuses.mjs     # canonicalise statuses
+node normalize-statuses.mjs     # canonicalize statuses
 node dedup-tracker.mjs          # dedup tracker rows
 node merge-tracker.mjs          # merge batch TSV additions
 node check-table-freshness.mjs  # jurisdiction table staleness
@@ -104,7 +104,7 @@ Every script lives at the **repo root**. Path stability is intentional — do no
 | `manifesto.mjs` | `npm run manifesto` | Sign the CareerOps Manifesto |
 | `merge-tracker.mjs` | `npm run merge` | Merge `batch/tracker-additions/*.tsv` |
 | `negotiation-roi.mjs` | — | Salary-negotiation talking points |
-| `normalize-statuses.mjs` | `npm run normalize` | Canonicalise tracker statuses |
+| `normalize-statuses.mjs` | `npm run normalize` | Canonicalize tracker statuses |
 | `ollama-eval.mjs` | `npm run ollama:eval` | Fully local evaluator |
 | `openai-eval.mjs` | `npm run openai:eval` | OpenAI-compatible evaluator |
 | `outcome.mjs` | — | Record outcome, archive artifacts |
